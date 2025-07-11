@@ -1,0 +1,22 @@
+{
+  "name": "VATSIM Tracker",
+  "author": "Joshua Baney",
+  "description": "Live radar for VATSIM and real-world traffic",
+  "frontend": {
+    "dir": "frontend",
+    "install": "npm install",
+    "build": "npm run build",
+    "bridge": ""
+  },
+  "platform": {
+    "windows": {
+      "webview2": {
+        "strategy": "embedded"
+      }
+    }
+  },
+  "assetdir": "frontend/dist",
+  "build": {
+    "ldflags": "-s -w"
+  }
+}

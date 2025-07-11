@@ -1,0 +1,10 @@
+# GUI Display (for Linux GUI forwarding)
+DISPLAY=:0
+
+# Optional: override branding values
+BRANDING_NAME="VatSim Radar - Golang version by Josh Baney"
+BRANDING_LOGO="branding/golang.png"
+BRANDING_PRIMARY_COLOR="#1e90ff"
+BRANDING_SECONDARY_COLOR="#2c3e50"
+BRANDING_VATSIM_COLOR="blue"
+BRANDING_REAL_COLOR="red"

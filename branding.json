@@ -1,0 +1,8 @@
+{
+  "name": "VATSIM Tracker",
+  "logo": "branding/baneyflix.png",
+  "primaryColor": "#1e90ff",
+  "secondaryColor": "#2c3e50",
+  "vatsimColor": "blue",
+  "realColor": "red"
+}
